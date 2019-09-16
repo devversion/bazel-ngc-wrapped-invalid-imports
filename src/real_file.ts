@@ -1,1 +1,0 @@
-export const Test = 'Export within a real file';

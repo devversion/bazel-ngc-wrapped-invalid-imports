@@ -1,5 +1,11 @@
 {
     "compilerOptions": {
-        "types": []
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": [],
+        "baseUrl": ".",
+        "paths": {
+            "@angular/cdk/*": ["packages/cdk/*"]
+        }
     }
 }
