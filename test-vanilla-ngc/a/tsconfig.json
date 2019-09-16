@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "../../dist/packages/a",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "rootDir": ".",
+        "lib": ["es2015", "dom"],
+        "skipLibCheck": true,
+        "declaration": true
+    },
+    "files": [
+      "public-api.ts"
+    ],
+    "angularCompilerOptions": {
+      "annotateForClosureCompiler": true,
+      "strictMetadataEmit": true,
+      "flatModuleOutFile": "index.js",
+      "flatModuleId": "@angular/a",
+      "skipTemplateCodegen": true,
+      "fullTemplateTypeCheck": true,
+      "enableIvy": false
+    }
+  }
+  

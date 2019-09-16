@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "../../dist/packages/b",
+        "experimentalDecorators": true,
+        "rootDir": ".",
+        "emitDecoratorMetadata": true,
+        "lib": ["es2015", "dom"],
+        "skipLibCheck": true,
+        "declaration": true,
+        "paths": {
+            "@angular/a": ["../../dist/packages/a"]
+        }
+    },
+    "files": [
+      "public-api.ts"
+    ],
+    "angularCompilerOptions": {
+      "annotateForClosureCompiler": true,
+      "strictMetadataEmit": true,
+      "flatModuleOutFile": "index.js",
+      "flatModuleId": "@angular/b",
+      "skipTemplateCodegen": true,
+      "fullTemplateTypeCheck": true,
+      "enableIvy": false,
+
+      // Uncomment to simulate bazel behavior:
+      // "generateCodeForLibraries": false
+    }
+  }
+  
